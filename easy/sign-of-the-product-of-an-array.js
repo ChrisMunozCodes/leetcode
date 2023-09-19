@@ -21,6 +21,7 @@ var arraySign = function(nums) {
     if(nums.includes(0)){
         return 0
     }
+    
     //loop through array
     for(let i = 0; i < nums.length; i++) {
         //if element is less than 0 count variable ++
