@@ -29,6 +29,7 @@ var arraySign = function(nums) {
         }
     }
 
+    
     //if count is even number than the solution is positive return 1
     if(counter % 2 === 0) {
         return 1
