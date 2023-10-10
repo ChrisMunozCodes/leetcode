@@ -14,7 +14,6 @@
 var fizzBuzz = function(n) {
     //arr to return at the end
     let arr = []
-
     //loop through n
     for(let i = 1; i <= n; i++){
         //if i % 3 && i % 5 => push "FizzBuzz"
