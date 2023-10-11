@@ -30,6 +30,5 @@ var fizzBuzz = function(n) {
             arr.push(i.toString())
         } 
     }
-
     return arr
 };
