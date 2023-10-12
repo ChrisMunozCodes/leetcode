@@ -25,10 +25,10 @@ var fizzBuzz = function(n) {
         //else if i % 5 => push "Buzz"
         } else if (i % 5 === 0) {
             arr.push("Buzz")
+        //else i    
         } else {
             arr.push(i.toString())
-        }
-        //else i     
+        } 
     }
 
     return arr
