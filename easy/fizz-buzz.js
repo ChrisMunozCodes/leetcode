@@ -14,7 +14,7 @@
 var fizzBuzz = function(n) {
     //arr to return at the end
     let arr = []
-    
+
     //loop through n
     for(let i = 1; i <= n; i++){
         //if i % 3 && i % 5 => push "FizzBuzz"
@@ -22,12 +22,12 @@ var fizzBuzz = function(n) {
             arr.push("FizzBuzz")
         } else if (i % 3 === 0){
             arr.push("Fizz")
+        //else if i % 5 => push "Buzz"
         } else if (i % 5 === 0) {
             arr.push("Buzz")
         } else {
             arr.push(i.toString())
         }
-        //else if i % 5 => push "Buzz"
         //else i     
     }
 
